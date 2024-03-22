@@ -49,6 +49,6 @@ class LoginController extends Controller
         $request->session()->regenerateToken();
 
         // Personalizza l'URL a cui l'utente viene reindirizzato dopo il logout
-        return redirect('http://localhost:5173');
+        return redirect('http://localhost:5174');
     }
 }
